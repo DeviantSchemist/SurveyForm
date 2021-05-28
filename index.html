@@ -1,0 +1,38 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial- scale=1, shrink-to-fit=no">
+  <title id="title">Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+  <!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description"><em>This is a survey to improve our site</em></p>
+  <form id="survey-form">
+    <label for="name-label">Name</label>
+    <input type="text" placeholder="Enter your name" id="name-label" name="name-label" required><br><br>
+    <label for="email-label">Email</label>
+    <input type="email" placeholder="Enter your email" id="email-label" name="email-label" required><br><br>
+    <label for="number-label">Age (Optional)</label>
+    <input type="number" placeholder="Age" id="number-label" name="number-label"><br><br>
+    <label for="dropdown">Which best describes your current role?</label>
+    <select name="dropdown" id="dropdown">
+      <option value="student">Student</option>
+      <option value="full-time-job">Full Time Job</option>
+      <option value="full-time-learner">Full Time Learner</option>
+      <option value="none">Prefer not to say</option>
+      <option value="other">Other</option>
+    </select>
+  </form>
+</body>
+
+</html>
