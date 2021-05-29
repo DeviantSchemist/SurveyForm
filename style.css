@@ -2,12 +2,23 @@ body {
   background-color: #160374;
 }
 
-.input-label {
+.input-label, .dropdown-label {
   display: block;
 }
 
+#description {
+  margin-bottom: -17%;
+}
+
+form {
+  padding-left: 7%;
+  padding-top: 4%;
+  padding-bottom: 7%;
+
+}
+
 #number-label {
-  width: 504px;
+  width: 650px;
 }
 
 h1, body>p {
@@ -17,7 +28,7 @@ h1, body>p {
 
 .container {
   color: white;
-  margin: 4%;
+  margin: 20%;
   background-color: #3814E8;
 }
 
