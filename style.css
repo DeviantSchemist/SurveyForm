@@ -1,0 +1,26 @@
+body {
+  background-color: #160374;
+}
+
+.input-label {
+  display: block;
+}
+
+#number-label {
+  width: 504px;
+}
+
+h1, body>p {
+  color: white;
+  text-align: center;
+}
+
+.container {
+  color: white;
+  margin: 4%;
+  background-color: #3814E8;
+}
+
+textarea {
+  display: block;
+}
