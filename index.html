@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial- scale=1, shrink-to-fit=no">
-  <title id="title">Survey Form</title>
+  <title>Survey Form</title>
   <link rel="stylesheet" href="./style.css">
   <!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -20,11 +20,11 @@
   <div class="container">
     <form id="survey-form">
       <label for="name-label" class="input-label">Name</label>
-      <input type="text" placeholder="Enter your name" id="name-label" name="name-label" size="92" required><br><br>
+      <input type="text" placeholder="Enter your name" id="name" name="name-label" size="92" required><br><br>
       <label for="email-label" class="input-label">Email</label>
-      <input type="email" placeholder="Enter your email" id="email-label" name="email-label" size="92" required><br><br>
+      <input type="email" placeholder="Enter your email" id="email" name="email-label" size="92" required><br><br>
       <label for="number-label" class="input-label">Age (Optional)</label>
-      <input type="number" placeholder="Age" id="number-label" name="number-label"><br><br>
+      <input type="number" placeholder="Age" id="number" name="number-label" min="1" max="100"><br><br>
       <label for="dropdown" class="dropdown-label">Which best describes your current role?</label>
       <select name="dropdown" id="dropdown">
         <option value="none" selected disabled>Select current role</option>
@@ -75,6 +75,7 @@
       <input type="submit" value="Submit">
     </form>
   </div>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
