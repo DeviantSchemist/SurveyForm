@@ -19,11 +19,11 @@
   <p id="description"><em>This is a survey to improve our site</em></p> 
   <div class="container">
     <form id="survey-form">
-      <label for="name-label" class="input-label">Name</label>
+      <label id="name-label" for="name-label" class="input-label">Name</label>
       <input type="text" placeholder="Enter your name" id="name" name="name-label" size="92" required><br><br>
-      <label for="email-label" class="input-label">Email</label>
+      <label id="email-label" for="email-label" class="input-label">Email</label>
       <input type="email" placeholder="Enter your email" id="email" name="email-label" size="92" required><br><br>
-      <label for="number-label" class="input-label">Age (Optional)</label>
+      <label id="number-label" for="number-label" class="input-label">Age (Optional)</label>
       <input type="number" placeholder="Age" id="number" name="number-label" min="1" max="100"><br><br>
       <label for="dropdown" class="dropdown-label">Which best describes your current role?</label>
       <select name="dropdown" id="dropdown">
@@ -72,7 +72,7 @@
       <label for="option11"> Additional Courses</label><br>
       <label for="comments">Any comments or suggestions?</label>
       <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comment here"></textarea>
-      <input type="submit" value="Submit">
+      <input id="submit" type="submit" value="Submit">
     </form>
   </div>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
